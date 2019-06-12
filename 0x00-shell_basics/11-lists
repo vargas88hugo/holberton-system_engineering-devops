@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la ./ ../ /boot | nl
+ls -la ./ ../ /boot/ | nl
