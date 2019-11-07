@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Process and PID file
 file=/var/run/holbertonscript.pid
-trap "echo I hate the kill command" SIGTERM
+trap "echo I hate the kill command; exit" SIGTERM
 trap "echo Y U no love me?!" SIGINT
-trap 'rm $file' SIGQUIT
+trap 'rm $file; exit' SIGQUIT SIGTERM
 echo $$ > "$file"
 while true;
 do
