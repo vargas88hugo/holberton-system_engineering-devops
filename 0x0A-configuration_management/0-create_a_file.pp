@@ -1,3 +1,4 @@
+# Creates a file in tmp directory
 file { '/tmp/holberton':
   ensure  => 'file',
   mode    => '0744',
