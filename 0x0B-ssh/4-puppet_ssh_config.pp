@@ -1,13 +1,11 @@
 # puppet ssh configuration
-class ssh_conf {
-  file_line { 'pass_auth'
+file_line { 'pass_auth'
     ensure => 'present',
     path   => '/etc/ssh/ssh_config',
     line   => ' PasswordAuthetification no',
-  }
-  file_line { 'conf_key'
+}
+file_line { 'conf_key'
     ensure => 'present',
     path   => '/etc/ssh/ssh_config',
     line   => ' IdentityFile ~/.ssh/holberton',
-  }
 }
