@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# script that fixes the container bug
+apt update -y
+apt install -y nginx
+printf "server {\n\tlisten 8080 default_server;\n\troot /var/www/html;\n}\n" > /etc/nginx/sites-enabled/default
+service nginx restart
