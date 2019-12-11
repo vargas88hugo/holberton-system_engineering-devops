@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # Script that transfer a file to a server
 if [ "$#" -lt 3 ];
 then
