@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # Script that transfer a file to a server
 if [ "$#" -lt 3 ]
 then
@@ -6,6 +6,7 @@ then
 elif [ "$#" -ge 4 ]
 then
     scp -o StrictHostKeyChecking=no -i "$4" "$1" "$3@$2:~/"
-else
+elif [ "$#" -eq 3 ]
+then
     scp -o StrictHostKeyChecking=no "$1" "$3@$2:~/"
 fi
