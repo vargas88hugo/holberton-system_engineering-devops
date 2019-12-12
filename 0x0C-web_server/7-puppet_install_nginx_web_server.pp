@@ -5,21 +5,21 @@ exec {'update':
 }
 
 exec {'install':
-  command  => 'apt-get -y install nginx',
+  command  => 'sudo apt-get -y install nginx',
   provider => shell,
 }
 
 exec {'create_html':
-  command  => 'echo "Holberton School" > /var/www/html/index.nginx-debian.html',
+  command  => 'sudo echo "Holberton School" | tee /var/www/html/index.nginx-debian.html',
   provider => shell,
 }
 
 exec {'sed_config':
-  command  => 'sed -i "/server_name _;/ a\\\trewrite ^/redirect_me http://www.youtube.com permanent;" /etc/nginx/sites-available/default',
+  command  => 'sudo sed -i "/server_name _;/ a\\\trewrite ^/redirect_me http://www.youtube.com permanent;" /etc/nginx/sites-available/default',
   provider => shell,
 }
 
 exec {'start':
-  command  => 'service nginx start',
+  command  => 'sudo service nginx start',
   provider => shell,
 }
