@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Install haproxy
 CONF="\
+
 frontend web-01
     bind *:80
     mode http
