@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script installs and configures Nginx server
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sed -i "/server_name _;/ a\\\tadd_header X-Served-By $HOSTNAME;\n\trewrite ^/redirect_me http://www.youtube.com permanent;" /etc/nginx/sites-available/default
+service nginx start
