@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script prints the A records of the domain
+check_arg ()
+{
+    if [ "$1" -eq  1 ];
+    then
+	return_val="www.$2 lb-01.$2 web-01.$2 web-02.$2"
+    else
+	return_val="$3.$2"
+    fi
+}
+
+check_arg "$#" "$1" "$2"
+
+dig $return_val | awk '/ANSWER SECTION/ {getline; split($1, a, "."); print "The subdomain", a[1], "is a", "$4", "record and points to", $5}'
