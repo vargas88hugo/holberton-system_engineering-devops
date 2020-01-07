@@ -12,4 +12,4 @@ check_arg ()
 
 check_arg "$#" "$1" "$2"
 
-dig $return_val | awk '/ANSWER SECTION/ {getline; split($1, a, "."); print "The subdomain", a[1], "is a", "$4", "record and points to", $5}'
+dig $return_val | awk '/ANSWER SECTION/ {getline; split($1, a, "."); print "The subdomain", a[1], "is a", $4, "record and points to", $5}'
