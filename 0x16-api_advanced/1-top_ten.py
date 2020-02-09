@@ -5,7 +5,6 @@ Program that prints the titles of the first 10 hot posts
 import pprint
 import requests
 
-
 URL = 'http://reddit.com/r/{}/hot.json'
 
 
