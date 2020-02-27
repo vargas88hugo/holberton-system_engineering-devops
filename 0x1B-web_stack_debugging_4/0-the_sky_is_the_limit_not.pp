@@ -2,10 +2,5 @@
 
 exec {
   provider => shell,
-  command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 4096\"/" /etc/default/nginx',
-}
-
-exec {
-  provider => shell,
-  command  => 'sudo service nginx restart'
+  command  => 'sudo sed -i "s/ULIMIT=\"-n 15\"/ULIMIT=\"-n 4096\"/" /etc/default/nginx; sudo service nginx restart'
 }
