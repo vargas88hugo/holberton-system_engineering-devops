@@ -1,5 +1,5 @@
 # Holberton School - System Engineering and Devops
-This is a practice from Holberton School for managing linux systems as a servers, debugging programs and processes, creating software infrastructure and Continuos Integration.
+This is a practice from Holberton School for managing linux systems as a servers, debugging programs and processes, creating software infrastructure and Continuous Integration.
 
 ### Content
 | Project | Description |
