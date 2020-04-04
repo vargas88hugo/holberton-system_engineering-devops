@@ -21,11 +21,11 @@ This is a practice from Holberton School for managing linux systems as a servers
 | [`0x0E-web_stack_debugging_1`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x0E-web_stack_debugging_1) | Debugging a damaged container with devops tools |
 | [`0x0F-load_balancer`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x0F-load_balancer) | Configure a Load balancer in a server a manage other servers with HAProxy |
 | [`0x10-https_ssl`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x10-https_ssl) | Configured a HTTPS server in a load balance with a certbot certificate |
-| [`0x12-web_stack_debugging_2`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x12-web_stack_debugging_2) | Debuggin a damaged contauner |
+| [`0x12-web_stack_debugging_2`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x12-web_stack_debugging_2) | Debuggin a damaged container with devops tools |
 | [`0x13-firewall`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x13-firewall) | Configured a firewall with UFW in a SSH server |
 | [`0x14-mysql`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x14-mysql) | Configured a master-replica stup and create a cluster |
 | [`0x16-api_advanced`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x16-api_advanced) | Consumed an API with Python language and advanced queries |
-| [`0x17-web_stack_debugging_3`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x17-web_stack_debugging_3) | Debugging a damaged container |
+| [`0x17-web_stack_debugging_3`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x17-web_stack_debugging_3) | Debugging a damaged container with devops tools |
 | [`0x18-webstack_monitoring`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x18-webstack_monitoring) | Configured a Monitor with Datadog |
 | [`0x1A-application_server`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x1A-application_server) | Configured an Application Server with Gunicorn and Python |
-| [`0x1B-web_stack_debugging_4`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x1B-web_stack_debugging_4) | Debugging a damaged container |
+| [`0x1B-web_stack_debugging_4`](https://github.com/vargas88hugo/holberton-system_engineering-devops/tree/master/0x1B-web_stack_debugging_4) | Debugging a damaged container with devops tools |
